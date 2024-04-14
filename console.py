@@ -170,11 +170,11 @@ class HBNBCommand(cmd.Cmd):
         #print the ID of the newly created Instance
         print(new_instance.id)
         #Retrieve all instances of the class from storage
-        objects = storage.all()
+        #objects = storage.all()
 
         #print the list of the objects
-        for obj in objects.values():
-            print(obj)
+        #for obj in objects.values():
+            #print(obj)
 
 
     def help_create(self):
